@@ -20,7 +20,7 @@ A bare-bones Python/Flask API that was *created as an exercise*, but a clean cod
      
      `localhost:5000/search/eventName/Ladies%20Night%20Out%20at%20Suite%20Lounge%20Hosted%20by%20Big%20Tigger` 
           
-     and it returns the JSON data for that event (see screenshot [*search1.PNG*](https://github.com/BrainAnnex/minimalistic-Eventbright-API/blob/master/screenshots/search1.PNG)); also, a few error checks ([*search2.PNG*](https://github.com/BrainAnnex/minimalistic-Eventbright-API/blob/master/screenshots/search2.PNG) and [*search3.PNG*](https://github.com/BrainAnnex/minimalistic-Eventbright-API/blob/master/screenshots/search3.PNG))
+     and it returns the JSON data for that event (see screenshot [*search1.PNG*](https://github.com/JuliansPolymathExplorations/minimalistic-Eventbright-API/blob/master/screenshots/search1.PNG)); also, a few error checks ([*search2.PNG*](https://github.com/JuliansPolymathExplorations/minimalistic-Eventbright-API/blob/master/screenshots/search2.PNG) and [*search3.PNG*](https://github.com/JuliansPolymathExplorations/minimalistic-Eventbright-API/blob/master/screenshots/search3.PNG))
      
      In case of error, it returns JSON code with error information.
 
@@ -40,4 +40,4 @@ A bare-bones Python/Flask API that was *created as an exercise*, but a clean cod
      
      `curl localhost:5000/update -H "Content-Type: application/json" -d '{\"id\": 60405139398 , \"key\": \"currency\" , \"value\": \"Monopoly Money\"}'`
      
-     (screenshot [*update1.PNG*](https://github.com/BrainAnnex/minimalistic-Eventbright-API/blob/master/screenshots/update1.PNG) shows a few error checks and then a successful update; [*update2.PNG*](https://github.com/BrainAnnex/minimalistic-Eventbright-API/blob/master/screenshots/update2.PNG) shows the updated record from a search for it)
+     (screenshot [*update1.PNG*](https://github.com/JuliansPolymathExplorations/minimalistic-Eventbright-API/blob/master/screenshots/update1.PNG) shows a few error checks and then a successful update; [*update2.PNG*](https://github.com/JuliansPolymathExplorations/minimalistic-Eventbright-API/blob/master/screenshots/update2.PNG) shows the updated record from a search for it)
